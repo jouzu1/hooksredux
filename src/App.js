@@ -9,6 +9,10 @@ function App() {
     <div className="App">
       <TodoInput />
       <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   );
 }
