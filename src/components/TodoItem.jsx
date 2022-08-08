@@ -2,7 +2,15 @@ import React from 'react'
 
 function TodoItem() {
   return (
-    <div>TodoItem</div>
+    <div>
+        <h3>TodoItem</h3>
+        <div className="row">
+            <div>#1</div>
+            <div>Title</div>
+            <button>Edit</button>
+            <button>Delete</button>
+        </div>
+    </div>
   )
 }
 
